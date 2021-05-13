@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>objict标签 --- 在HTML5之前的标签</h3>
+    <hr>
+    <h4>音乐</h4>
+    <br>
+    <object height="100" width="200" data="./爱.mp3"></object>
+    <br>
+    <h4>视频</h4>
+    <br>
+    <object height="400" width="600" data="./视频.mp4"></object>
+    <h4>快手</h4>
+    <object height="800" width="450" data="https://v2.kwaicdn.com/upic/2021/05/13/17/BMjAyMTA1MTMxNzUxNTVfMTg5MTgyMzkzOV80OTUyMjY2NzQwNl8xXzM=_b_Bcc3e6c10ae5c72193f7e6dae38acac40.mp4?pkey=AAV82jeCUIGn4_jmFDYsw4H46nFaY1Az-NTBLgaDYVxRh97MPBcl29in0BTfyZ7oiWUwLXg8H655SlwDf_kF7qtYuqcTc4JeSdAvZ-YdNx0be9TMNV-B9sJjpHoQ9FHUpcQ&tag=1-1620909705-xpcwebhome-0-8kmdmfvj92-15ff0524eadb51d8&clientCacheKey=3xtttp9t4wycbcc_b.mp4&tt=b&di=7c4109e3&bp=10004"></object>
+    <hr>
+    <h3>embed标签 --- HTML中特有的，插入音视频</h3>
+    <hr>
+    <embed height="400" width="600" src="./视频.mp4">
+    <br>
+    <embed height="100" width="200" src="./爱.mp3">
+    <br>
+    <hr>
+    <h3>audio标签 -- HTML5中推荐音频标签</h3>
+    <audio controls="controls">
+        <source src="./爱.mp3">
+    </audio>
+    <br>
+    <h3><video标签---HTML中推荐使用"</h3>
+    <video height="400" width="600" controls="controls">
+        <source src="./视频.mp4" type="video/mp4" />
+    </video>
+    <video height="900" width="450" controls="controls">
+        <source src="https://v2.kwaicdn.com/upic/2021/05/13/17/BMjAyMTA1MTMxNzUxNTVfMTg5MTgyMzkzOV80OTUyMjY2NzQwNl8xXzM=_b_Bcc3e6c10ae5c72193f7e6dae38acac40.mp4?pkey=AAV82jeCUIGn4_jmFDYsw4H46nFaY1Az-NTBLgaDYVxRh97MPBcl29in0BTfyZ7oiWUwLXg8H655SlwDf_kF7qtYuqcTc4JeSdAvZ-YdNx0be9TMNV-B9sJjpHoQ9FHUpcQ&tag=1-1620909705-xpcwebhome-0-8kmdmfvj92-15ff0524eadb51d8&clientCacheKey=3xtttp9t4wycbcc_b.mp4&tt=b&di=7c4109e3&bp=10004" type="video/mp4" />
+    </video>
+    </body>
+</html>
